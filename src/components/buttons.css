@@ -1,0 +1,65 @@
+a{
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+    font-size: 11pt;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 45px;
+    width: 200px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    object-fit: scale-down;
+
+  }
+    
+.botButton {
+    
+    
+    background-color: #5765f2;
+    border: 2px solid #5765f2;
+    color: #fff;
+}
+
+img {
+    margin-right: 6px;
+}
+  
+
+.botButton:hover {
+    transform:
+    translateY(1px);
+
+    background-color: #7289da;
+    border: 2px solid #7289da;
+}
+
+.botButton:active {
+    transform:
+    translateY(2px);
+}
+
+.githubButton {
+    background-color: #282c34;
+    color: grey;
+    border: 2px solid grey;
+}
+
+.githubButton:hover {
+    background-color: grey;
+    color: #282c34;
+
+    transform: 
+    translateY(1px);
+}
+
+.githubButton:active {
+    transform:
+    translateY(2px);
+}
